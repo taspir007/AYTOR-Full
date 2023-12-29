@@ -1,0 +1,126 @@
+
+/* xxl */
+@media (min-width:1400px){
+    .sub_form{
+        margin-left: 150px;
+    }
+}
+
+/* xl */
+@media (min-width:1200px) and (max-width:1399.98px){
+    .sub_form{
+        margin-left: 200px;
+    }
+}
+
+/* lg */
+@media (min-width:992px) and (max-width:1199.98px){
+    .banner_btn_dots ul {
+        left: 31px;
+        bottom: 63px;
+    }
+    .slider{
+        height: 700px;
+    }
+    #banner .slider h2 {
+        line-height: 70px;
+        font-size: 54px;
+    }
+}
+
+/* md */
+@media (min-width:768px) and (max-width:991.98px){
+    .slider{
+        height: 650px;
+    }
+    #banner .slider h2 {
+        line-height: 65px;
+        font-size: 44px;
+    }
+    .banner_btn_dots ul {
+        left: 41px;
+        bottom: 20px;
+    }
+    img, svg {
+        vertical-align: initial;
+    }
+    #SPECIAL_OFFER h3 {
+        font-weight: 700;
+        color: #11161E;  
+    }
+    footer .F-first_info p {
+        text-align: center;
+        display: inline;
+        justify-content: center;
+    }
+    footer .F-first_info h2 {
+        text-align: center;
+    }
+}
+
+/* sm */
+@media (min-width:576px) and (max-width:767.98px){
+    .sub_form{
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    .slider{
+        height: 650px;
+    }
+    .banner_btn_dots ul {
+        left: 40px;
+        bottom: 70px;
+    }
+    #banner .slider h2 {
+        line-height: 60px;
+        font-size: 40px;
+    }
+    img, svg {
+        vertical-align: revert;
+    }
+    #SPECIAL_OFFER h3 {
+        font-size: 30px;
+    }
+    #SPECIAL_OFFER p {
+        font-weight: 410;
+        line-height: 25px;
+        font-size: 14px;
+    }
+    footer .F-first_info p {
+       
+        line-height: 25px;
+        text-align: center;
+    }
+    footer .F-first_info h2 {
+        line-height: 40px;
+        font-size: 33px;
+        text-align: center;
+    }
+    #wishlist_pro p {
+        font-size: 12px;
+    }
+    #wishlist_pro button {
+        padding: 4px 18px;
+        font-size: 10px;
+    }
+   
+}
+
+/* xs */
+@media (max-width:575.98px){
+    .sub_form{
+        margin-left: 0px;
+        margin-top: 4px;
+    }
+    .banner_btn_dots ul {
+        left: 20px;
+        
+    }
+    .d_n{
+        display: none;
+    }
+    #wishlist_pro img {
+        width: 104px;
+        height: 103px;
+    }
+}
