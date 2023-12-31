@@ -31,6 +31,7 @@
          <link rel="stylesheet" href="./Assets/Vendors/css/venobox.min.css">
         <!-- main css link -->
         <link rel="stylesheet" href="./Assets/CSS/main.css">
+        <link rel="stylesheet" href="./Assets/CSS/responsive.css">
     </head>
 <body>
      <!-- pre load start -->
@@ -62,6 +63,9 @@
                         <li><button class="position-relative" id="cart_show_btn"><i class="fa-solid fa-bag-shopping"></i><span>4</span></button></li>
                     </ul>
                 </div>
+                <div class="mbl-icon">
+                    <button id="mbl_nav_show"><i class="fa-solid fa-bars"></i></button>
+                </div>
             </div>
         </nav>
     </header>
@@ -82,12 +86,21 @@
         <section id="categoriesa" style="margin-top: 100px;">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-xl-9">
-                        <img src="./Assets/IMAGES/blog-s-1-1.jpg" alt="">
+                    <div class="col-lg-8 col-xl-9 categoriesa_imgs">
+                        <img src="./Assets/IMAGES/blog-s-1-1.jpg" alt="" style="width: 100%;">
+                        <span class="d-flex">
+                            <p>Michel-Fashion Admin</p>
+                            <p class="mx-auto"><i class="fa-regular fa-calendar-days"></i>January 04, 2022</p>
+                            <p class="mx-auto"> <i class="fa-solid fa-heart"></i> like(2.2k)</p>
+                            <p> <i class="fa-regular fa-comment"></i> Comment(03)</p>
+                        </span>
+                        <h3>Color, Size, Material Swatches</h3>
+                        <p>Compellingly extend client-based catalysts for change with adaptive information. Appropriately repurpose inexpensive networks vis-a-vis turnkey customer service. Distinctively drive viral catalysts for change whereas high-payoff supply chains. Progressively myocardinate highly efficient meta-services via cutting-edge core competencies. Dynamically target mission-critical expertise. Professionally enable resource sucking information rather than sustainable infrastructures. Competently empower market-driven communities through interoperable systems. Proactively exploit quality resources rather than real-time "outside the box" thinking.</p>
+                        
                     </div>
                     <div class="col-lg-4 col-xl-3">
                         <div class="categoriesa_form d-flex">
-                            <form action="">
+                            <form action="" style="width: 100%;">
                                 <input type="search" placeholder="Search Here....">
                             </form>
                             <div>
@@ -99,7 +112,7 @@
                             <ul class="">
                                 <li class="d-flex">
                                     <P>Fashion</P>
-                                    <span >(5)</span>
+                                    <span style="margin-left: 161px;">(5)</span>
                                 </li>
                                 <li class="d-flex">
                                     <P>Furnitures</P>
@@ -107,35 +120,35 @@
                                 </li>
                                 <li class="d-flex">
                                     <P>Electronics</P>
-                                     <span>(9)</span>
+                                     <span style="margin-left: 139px;">(9)</span>
                                 </li>
                                 <li class="d-flex">
                                     <P>Cosmetics</P>
-                                     <span>(1)</span>
+                                     <span style="margin-left: 144px;">(1)</span>
                                 </li>
                                 <li class="d-flex">
                                     <P>Wine</P>
-                                     <span>(7)</span>
+                                     <span style="margin-left: 178px;">(7)</span>
                                 </li>
                                 <li class="d-flex">
                                     <P>Frame Sunglasses</P>
-                                     <span>(5)</span>
+                                     <span style="margin-left: 90px;">(5)</span>
                                 </li>
                                 <li class="d-flex">
                                     <P>Jewellery</P>
-                                    <span>(2)</span>
+                                    <span style="margin-left: 152px;">(2)</span>
                                 </li>
                                 <li class="d-flex">
                                     <P>Accessories</P>
-                                    <span>(3)</span>
+                                    <span style="margin-left: 134px;">(3)</span>
                                 </li>
                                 <li class="d-flex">
                                     <P>Furnitures</P>
-                                     <span>(4)</span>
+                                     <span style="margin-left: 144px;">(4)</span>
                                 </li>
                                 <li class="d-flex">
                                     <P>New Arrivals</P>
-                                     <span>(5)</span>
+                                     <span style="margin-left: 126px;">(5)</span>
                                 </li>
                             </ul>
                         </div>
@@ -144,6 +157,34 @@
             </div>
         </section>
         <!-- categoriesa section end -->
+        <!-- f-back section start -->
+        <section id="f-back">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-xl-9" style="background-image: url(./Assets/IMAGES/f-back-bg.png); background-size: cover; background-position: center; border-left: 2px solid red;">
+                        <p>
+                            Professionally implement installed base initiatives vis-a-vis low-risk high-yield leadership. Enthusiastically synthesize magnetic functionalities vis-a-vis low-risk high-yield ideas. Quickly architect.____"Bruce Wayne"
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- f-back section start -->
+
+        <!-- section start -->
+        <section id="P_2">
+        <div class="container">
+            <div class="row">
+                <div class="p_2_info col-lg-8 col-xl-9">
+                    <p>
+                        Authoritatively innovate resource maximizing quality vectors vis-a-vis performance based interfaces. Uniquely productivate intermandated web services before fully researched users. Quickly productivate open-source sources through bleeding-edge growth strategies. Authoritatively grow unique solutions and high-quality e-commerce.
+                    </p>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- section emd -->
+
     </main>
     <!-- main section end -->
     <!-- footer section start -->
@@ -312,6 +353,33 @@
     <!--  cart section end -->
 
     <!-- popup sections -->
+
+    <!-- resporsiv nav -->
+    <section id="respon_nav" class="js_nav">
+        <div class="cart_side_bar">
+            <div class="r_nav_logo">
+                <img src="./Assets/IMAGES/Logo.svg" alt="">
+                <button id="mbl_nav_hide"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="r_nav_menu">
+                <ul>
+                    <li><a  href="./index.html">Home</a></li>
+                    <li><a  href="./shop.html">Shop</a></li>
+                    <li><a  href="./about.html">About</a></li>
+                    <li><a  href="./bloge.html">Blogs</a></li>
+                    <li><a  href="./contant.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-center  munu-2">
+                <div><button><i class="fa-solid fa-magnifying-glass"></i></button></div>
+                <div><a href=""><i class="fa-regular fa-user"></i></a></div>
+                <div><a href="./wish_list.html"><i class="fa-regular fa-heart"></i></a></div>
+                <div><button><i class="fa-solid fa-bag-shopping"></i></button></div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- resporsiv nav -->
 
 
 

@@ -112,6 +112,13 @@ nav ul li a:hover,nav ul li a.active{
 .cart_show{
     transform: scaleX(1);
 }
+.js_nav{
+    transform: scale(0);
+}
+.nav_show{
+    transform: scale(1);
+}
+
 
 #search form{
     width: 40%;
@@ -253,7 +260,63 @@ nav ul li a:hover,nav ul li a.active{
 #cart .delete_icon button:hover{
     color: #FF6F61;
 }
+#respon_nav{
+    position: absolute;
+    transition: .7s;
+    font-family: Josefin Sans;
+    inset: 0;
+    transform-origin: left;
+    /* background-color: #11161e77; */
+    position: fixed;
+    /* overflow: scroll; */
+    z-index: 900;
+    border: none;
+}
+#respon_nav .cart_side_bar{
+    width: 450px;
+    height: 100vh;
+    background-color: white;
+}
+.r_nav_logo{
+display: flex;
+justify-content: center;
+border-bottom: 1px solid #44444467;
+padding-top: 20px;
+}
+.r_nav_menu ul li a{
+    font-family: Josefin Sans;
+    font-weight: 400;
+    line-height: 50px;
+    font-size: 34px;
+    color: #11161E;
+    margin: 25px;
+    transition: .6s;
+}
+.r_nav_menu{
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+.munu-2 div button,a{
+    background-color: white;
+    border: none;
+    line-height: 26px;
+    font-weight: 400;
+    color: #11161E;
+    font-weight: 400;
+    /* margin-top: 10px;
+    margin: 10px; */
+    margin-right: 20px;
+}
+.r_nav_logo button{
+    background-color: #FF6F61;
+    border: none;
+    color: white;
+    height: 20px;
+}
 
+
+/* nav end */
 
 
 /* offer section start */
@@ -1880,6 +1943,86 @@ footer .Contact ul li a{
     color: #444444;
     
 }
+#categoriesa .categoriesa_info  h5{
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    color: #11161E;
+    border-bottom: 2px solid #FF6F61;
+    width: 100px;
+    margin-bottom: 30px;
+}
+#categoriesa .categoriesa_info ul li{
+    border-bottom: 1px solid #F1F3F4;
+}
+#categoriesa .categoriesa_imgs span p{
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444;
+    margin-top: 20px;
+}
+#categoriesa .categoriesa_imgs h3{
+    font-family: Josefin Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    color: #11161E; 
+    margin-top: 6px;
+}
+#categoriesa .categoriesa_imgs p{
+    margin-top: 16px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    color: #444444;
+}
+#categoriesa .categoriesa_info ul li  p{
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 16px;
+    color: #444444;
+}
+#categoriesa .categoriesa_info ul li span{
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    font-size: 16px;
+    color: #444444;
+}
+#f-back p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 28px;
+    color: #444;
+    padding: 40px 50px;
+}
+#f-back{
+    margin-top: 30px;
+}
+#P_2 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 16px;
+    width: 100%; 
+}
+#P_2{
+    margin-top: 10px;
+}
 /* blog detas page */
 
 /* cart item section start*/
@@ -1919,6 +2062,7 @@ footer .Contact ul li a{
     margin-top: 38px;
 }
 /* cart item section end*/
+
 
 
    

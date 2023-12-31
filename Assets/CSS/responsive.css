@@ -4,12 +4,18 @@
     .sub_form{
         margin-left: 150px;
     }
+    .mbl-icon{
+        display: none;
+    }
 }
 
 /* xl */
 @media (min-width:1200px) and (max-width:1399.98px){
     .sub_form{
         margin-left: 200px;
+    }
+    .mbl-icon{
+        display: none;
     }
 }
 
@@ -25,6 +31,9 @@
     #banner .slider h2 {
         line-height: 70px;
         font-size: 54px;
+    }
+    .mbl-icon{
+        display: none;
     }
 }
 
