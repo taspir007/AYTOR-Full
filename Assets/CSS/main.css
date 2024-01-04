@@ -112,12 +112,13 @@ nav ul li a:hover,nav ul li a.active{
 .cart_show{
     transform: scaleX(1);
 }
-.js_nav{
+.js_nav {
+	margin-left: -449px;
     transform: scale(0);
 }
-.nav_show{
-    transform: scale(1);
-}
+/* .nav_show{
+    margin-left: none;
+} */
 
 
 #search form{

@@ -16,13 +16,6 @@ $(function(){
    $("#popup_close").on("click",function(){
     $("#sub_popup").hide(300)
    });
-    //mobile nav
-    $("#mbl_nav_show").on("click", function(){
-        $("#respon_nav").addClass("nav_show");
-    });
-    $("#mbl_nav_hide").on("click", function(){
-        $("#respon_nav").removeClass("nav_show");
-    });
 
    //banner slick slider  start
    $('#banner').slick({
@@ -187,4 +180,6 @@ minus.addEventListener('click', function(){
         input.value--
     }
 });
+
+
 
